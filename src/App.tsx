@@ -15,6 +15,8 @@ function App() {
       </Button>
 
       <Input type="text" label='this is a test' placeholder='test placeholder' name='test input' />
+
+      <Input type="text" label='disabled' placeholder='disabled placeholder' name='test input' disabled />
     </div>
   );
 }

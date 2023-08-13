@@ -1,13 +1,12 @@
 import React, { ChangeEvent } from 'react';
-import PropTypes from 'prop-types';
 import './Input.scss';
 
 interface InputTypes {
-  type: 'text' | 'password' | 'email'
-  label: string;
+  type?: 'text' | 'password' | 'email'
+  label?: string;
   value?: string;
-  name: string;
-  placeholder: string;
+  name?: string;
+  placeholder?: string;
   error?: boolean;
   errorMessage?: string;
   disabled?: boolean;
